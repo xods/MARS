@@ -2,7 +2,11 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.TextView;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -10,6 +14,10 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        TextView txtLogo = findViewById(R.id.txtVLogo);
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.anim_txt);
+        txtLogo.setAnimation(animation);
     }
 
     @Override
