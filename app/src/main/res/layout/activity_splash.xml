@@ -10,30 +10,9 @@
         android:id="@+id/txtVLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="450dp"
         android:fontFamily="@font/mars_mission"
         android:text="@string/app_name"
         android:textColor="@color/glina"
         android:textSize="96sp" />
-<!--
-    <Button
-        android:id="@+id/btnLogIn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="410dp"
-        android:hint="@string/login" />
-
-    <Button
-        android:id="@+id/btnSignIn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:hint="@string/SignIn" />
-
-    <Button
-        android:id="@+id/btnPlayGuest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
-        android:hint="@string/playGuest" />-->
 </LinearLayout>
