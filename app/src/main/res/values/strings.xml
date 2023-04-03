@@ -4,5 +4,8 @@
     <string name="SignIn">Sign in</string>
     <string name="playGuest">Play as a guest</string>
     <string name="logInHint">Username/Email</string>
+    <string name="signInNameHint">Username</string>
+    <string name="signInMailHint">Email</string>
     <string name="passHint">Password</string>
+    <string name="passRHint">Repeat Password</string>
 </resources>
