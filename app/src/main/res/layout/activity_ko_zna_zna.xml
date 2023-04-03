@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".activity.KoZnaZnaActivity">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:background="@color/glina"
+        tools:ignore="InvalidId,MissingConstraints">
+        <TextView
+            android:id="@+id/pitanje"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/mars_mission"
+            android:textSize="28sp"
+            android:textColor="@color/kesten"
+            android:text="Pitanje?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LL1"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/odg1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@color/glina"
+            android:fontFamily="@font/mars_mission"
+            android:gravity="center"
+            android:text="Odgovor A"
+            android:textColor="@color/kesten"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/odg2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@color/glina"
+            android:fontFamily="@font/mars_mission"
+            android:gravity="center"
+            android:text="Odgovor B"
+            android:textColor="@color/kesten"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/odg3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@color/glina"
+            android:fontFamily="@font/mars_mission"
+            android:gravity="center"
+            android:text="Odgovor C"
+            android:textColor="@color/kesten"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/odg4"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@color/glina"
+            android:fontFamily="@font/mars_mission"
+            android:gravity="center"
+            android:text="Odgovor D"
+            android:textColor="@color/kesten"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
