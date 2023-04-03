@@ -3,4 +3,6 @@
     <string name="login">Log in</string>
     <string name="SignIn">Sign in</string>
     <string name="playGuest">Play as a guest</string>
+    <string name="logInHint">Username/Email</string>
+    <string name="passHint">Password</string>
 </resources>
