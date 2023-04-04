@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".activity.KorakPoKorak">
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        tools:ignore="InvalidId,MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/korak1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:text="Korak jedan"/>
+
+            <TextView
+                android:id="@+id/bod1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:gravity="right"
+                android:text="20"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/korak2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:text="Korak dva"/>
+
+            <TextView
+                android:id="@+id/bod2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:gravity="right"
+                android:text="18"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/korak3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:text="Korak tri"/>
+
+            <TextView
+                android:id="@+id/bod3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:gravity="right"
+                android:text="16"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/korak4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:text="Korak cetri"/>
+
+            <TextView
+                android:id="@+id/bod4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:gravity="right"
+                android:text="14"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/korak5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:text="Korak pet"/>
+
+            <TextView
+                android:id="@+id/bod5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:gravity="right"
+                android:text="12"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/korak6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:text="Korak sest"/>
+
+            <TextView
+                android:id="@+id/bod6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:gravity="right"
+                android:text="10"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/korak7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:text="Korak sedam"/>
+
+            <TextView
+                android:id="@+id/bod7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/glina"
+                android:fontFamily="@font/mars_mission"
+                android:textSize="28sp"
+                android:gravity="right"
+                android:text="8"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LL1"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/odgovor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/glina"
+            android:fontFamily="@font/mars_mission"
+            android:text="odgovor"
+            android:textSize="28sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
