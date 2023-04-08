@@ -8,4 +8,5 @@
     <string name="signInMailHint">Email</string>
     <string name="passHint">Password</string>
     <string name="passRHint">Repeat Password</string>
+    <string name="play_game">Play game</string>
 </resources>
